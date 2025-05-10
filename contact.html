@@ -97,7 +97,9 @@
                 <div class="sub-text w-75">
                   <p>Per prenotazioni e informazioni, contattaci subito.</p>
                 </div>
-                <a href="#contatti" class="btn btn-black mt-3">Contattaci</a>
+                <!-- Booking Engine Widget replacing Contattaci button -->
+                <script>(function(d, s, id) {if (d.getElementById(id)) return;var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = 'https://app.your.rentals/public/assets/scripts/direct-booking-widget.js';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'yr-direct-booking-widget-bootstrap'));</script>
+                <div class="yr-widget-direct-booking" data-yrlid="115643" data-yrscid="PMDR" data-uid="8dfbd773-21cc-4017-9b3b-4071da4f26a2" check-in-date="" check-out-date="" guests ="" is-embedded="true"></div>
               </div>
             </div>
           </div>
@@ -168,7 +170,7 @@
           <div class="row">
             <div class="col-12 text-center">
               <h3 class="m-0 p-0">Per richieste speciali, chiamaci al <a href="tel:+393500313314">+393500313314</a></h3>
-            </div>
+            }</div>
           </div>
         </div>
       </div>
@@ -185,7 +187,7 @@
             <p><a href="#" class="readmore">Leggi di più</a></p>
           </div>
           <div class="col-md-8 ml-auto">
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-md-3">
                 <h3>Navigazione</h3>
                 <ul class="list-unstyled">
